@@ -1,37 +1,26 @@
 This is my 2nd Task from tutedude:
 
-Laundry Mart Website using html:->
-A simple HTML webpage for a laundry service business.
+Laundry Mart Website:->
+This project displays a simple laundry service webpage using HTML.
 
+
+Files:
+index.html
+README.md
+
+
+How to run:
+Open index.html in any web browser.
 
 Features:
-Company introduction
+Welcome message
 Services list
-Pricing table
+Price table
 Booking form
-Contact information
+Contact info
 
 
-Services Offered:
-Washing and Drying
-Ironing and Folding
-Dry Cleaning
-Stain Removal
-Express Services
-Special Garment Care
-
-
-Pricing:
-Service	Price
-Washing and Drying	$10.00
-Ironing and Folding	$5.00
-
-
-Contact
-Email: info@laundrymart.com
-
-
-Technologies
+Technologies:
 HTML5
 
 Simple project for learning HTML basics
