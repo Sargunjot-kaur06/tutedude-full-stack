@@ -10,7 +10,7 @@ This task is a deep dive into CSS selectors. It demonstrates the ability to targ
 - **Inline vs. External Styling:** Utilized an external `style.css` sheet while demonstrating specific inline style overrides.
 
 ## 🚀 Live Demo
-[View Task3 Live](https://sargunjot-kaur-task3.netlify.app/Task1/index.html)
+[View Task3 Live](https://sargunjot-kaur-task3.netlify.app/Task3/index.html)
 
 ## 💡 What I Learned
 - The hierarchy and specificity of different CSS selectors.
