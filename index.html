@@ -5,19 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sargunjot Kaur | Tutedude Portfolio</title>
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f0f2f5; margin: 0; }
-        .container { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
-        .task-link { display: block; background: #007bff; color: white; text-decoration: none; padding: 10px 20px; margin: 10px 0; border-radius: 5px; font-weight: bold; }
-        .task-link:hover { background: #0056b3; }
+        :root { --primary: #007bff; --bg: #f8f9fa; --text: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; display: flex; justify-content: center; }
+        .portfolio-card { background: white; max-width: 600px; width: 100%; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); margin-top: 50px; }
+        header { border-bottom: 2px solid #eee; margin-bottom: 20px; padding-bottom: 10px; }
+        h1 { margin: 0; color: var(--primary); font-size: 1.8rem; }
+        .welcome-msg { font-style: italic; color: #666; margin-bottom: 20px; }
+        .section-title { font-weight: bold; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; color: #999; margin-top: 30px; display: block; }
+        .task-list { margin-top: 15px; }
+        .task-item { display: flex; align-items: center; justify-content: space-between; background: #fff; border: 1px solid #eee; padding: 15px; border-radius: 8px; margin-bottom: 10px; text-decoration: none; transition: 0.2s; }
+        .task-item:hover { border-color: var(--primary); transform: translateX(5px); }
+        .task-info h3 { margin: 0; font-size: 1rem; color: var(--primary); }
+        .task-info p { margin: 0; font-size: 0.85rem; color: #777; }
+        .arrow { color: #ccc; font-weight: bold; }
+        footer { margin-top: 40px; font-size: 0.8rem; color: #aaa; text-align: center; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Tutedude Full-Stack Tasks</h1>
-        <p>Click a task below to view the live demo:</p>
-        <a href="./task1/index.html" class="task-link">Task 1: Hello World</a>
-        <a href="./task2/index.html" class="task-link">Task 2: Laundry Mart</a>
-        <a href="./task3/index.html" class="task-link">Task 3: CSS Selectors</a>
+    <div class="portfolio-card">
+        <header>
+            <h1>Sargunjot Kaur</h1>
+            <p>MERN Stack Developer Intern @ Tutedude</p>
+        </header>
+
+        <div class="welcome-msg">
+            "Welcome to my learning journey! I am currently mastering the MERN stack, focusing on building clean, responsive, and user-friendly web applications from scratch."
+        </div>
+
+        <span class="section-title">Completed Tasks</span>
+        <div class="task-list">
+            <a href="./task1/index.html" class="task-item">
+                <div class="task-info">
+                    <h3>Task 01: Hello World</h3>
+                    <p>Basic HTML structure and document setup.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="./task2/index.html" class="task-item">
+                <div class="task-info">
+                    <h3>Task 02: Laundry Mart</h3>
+                    <p>Landing page using HTML tables and forms.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="./task3/index.html" class="task-item">
+                <div class="task-info">
+                    <h3>Task 03: CSS Selectors</h3>
+                    <p>Targeting elements using Classes and IDs.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 Sargunjot Kaur • Built with HTML & CSS
+        </footer>
     </div>
 </body>
 </html>
