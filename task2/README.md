@@ -1,23 +1,17 @@
-# Laundry Mart Website
+# 🧺 Laundry Mart Landing Page
 
-This project displays a simple laundry service webpage using HTML.
+## 📌 Project Overview
+A responsive landing page for a laundry service business. This task focused on structuring complex data using HTML tables and gathering user input via forms.
 
-## Files
-- index.html
-- README.md
+## ✨ Key Features
+- **Pricing Table:** Organized service costs using `<table>` tags.
+- **Booking Form:** Integrated form validation for Name, Email, and Phone.
+- **Smooth Navigation:** Internal page links using ID anchors (Contact Us).
 
-## How to run
-Open index.html in any web browser.
+## 🚀 Live Demo
+[View Task2 Live](https://sargunjot-kaur-task2.netlify.app/)
 
-## Features
-- Welcome message
-- Services list
-- Price table
-- Booking form
-- Contact info
-
-## Technologies
-HTML5
-
----
-*Simple project for learning HTML basics*
+## 💡 What I Learned
+- Proper use of semantic HTML.
+- Formatting data lists and tables for better readability.
+- Basic form structure and input types.
