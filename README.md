@@ -19,10 +19,10 @@ Welcome to my repository! This project tracks my professional growth through the
 
 | Task # | Project Name | Description | Live Demo | Source Code | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **01** | Hello World | Basic HTML structure and document boilerplate. | [🚀 View](https://sargunjot-kaur-task1.netlify.app/) | [📂 Code](./Task1) | ✅ Done |
-| **02** | Laundry Mart | Business landing page using HTML Tables & Forms. | [🚀 View](https://sargunjot-kaur-task2.netlify.app/) | [📂 Code](./Task2) | ✅ Done |
-| **03** | CSS Selectors | Deep dive into ID, Class, and Attribute selectors. | [🚀 View](https://sargunjot-kaur-task3.netlify.app/) | [📂 Code](./Task3) | ✅ Done |
-| **04** | Advanced CSS | Practice with Flexbox, Grid, and Layouts. | [🚀 View](https://sargunjot-kaur-task4.netlify.app/) | [📂 Code](./Task4) | ✅ Done |
+| **01** | Hello World | Basic HTML structure and document boilerplate. | [🚀 View](https://sargunjot-kaur-dev.netlify.app/task1/) | [📂 Code](./task1) | ✅ Done |
+| **02** | Laundry Mart | Business landing page using HTML Tables & Forms. | [🚀 View](https://sargunjot-kaur-dev.netlify.app/task2/) | [📂 Code](./task2) | ✅ Done |
+| **03** | CSS Selectors | Deep dive into ID, Class, and Attribute selectors. | [🚀 View](https://sargunjot-kaur-dev.netlify.app/task3/) | [📂 Code](./task3) | ✅ Done |
+| **04** | CSS Box Model | Mastery of Viewport units and sizing logic. | [🚀 View](https://sargunjot-kaur-dev.netlify.app/task4/) | [📂 Code](./task4) | ✅ Done |
 | **05** | CSS Project | Finalizing CSS modules with a responsive project. | — | — | ⏳ Upcoming |
 | **06** | JavaScript | Logic, DOM Manipulation, and API basics. | — | — | 📅 Planned |
 
@@ -37,5 +37,6 @@ Welcome to my repository! This project tracks my professional growth through the
 
 ## 📫 Connect with me
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sargunjot-kaur-a030a0330)
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://sargunjot-kaur-dev.netlify.app/)
 
 ---
