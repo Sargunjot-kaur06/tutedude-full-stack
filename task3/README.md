@@ -1,30 +1,18 @@
-# CSS Selectors Task
+# 🎯 CSS Selectors & Styling Task
 
-## Files
-- index.html
-- style.css
+## 📌 Project Overview
+This task is a deep dive into CSS selectors. It demonstrates the ability to target specific HTML elements using classes, IDs, and attributes to apply unique styles.
 
-## How to run
-Open index.html in any browser.
+## ✨ Key Features
+- **Class Selectors:** Applied a uniform "darkblue" color to multiple headings using the `.head` class.
+- **ID Selectors:** Targeted specific elements (like `#bglime` and `#para`) for unique background and text colors.
+- **Attribute Selectors:** Styled specific links based on their `title` attribute using `span[title]`.
+- **Inline vs. External Styling:** Utilized an external `style.css` sheet while demonstrating specific inline style overrides.
 
-## Steps Done
+## 🚀 Live Demo
+[View Task3 Live](https://sargunjot-kaur-task3.netlify.app/Task1/index.html)
 
-1. **Setup** - Created HTML and CSS files
-2. **Background** - Added color to body
-3. **Headings** - 3 headings with class="head" (dark blue text)
-4. **2nd Heading** - Added id="bglime" for background color
-5. **Red Text** - Made "head" text red in 2nd heading
-6. **Paragraphs** - 3 paragraphs styled white using p selector
-7. **2nd Paragraph** - Used id="para" to make text green
-8. **"paragraph" Text** - Made it black and bigger
-9. **Lists** - 2 lists, styled "here" using span[title] attribute
-
-## Selectors Used
-- `p` - white text
-- `.head` - dark blue text
-- `#bglime` - background color
-- `#para` - green text
-- `span[title]` - yellow/purple background + underline
-
----
-*CSS selectors practice*
+## 💡 What I Learned
+- The hierarchy and specificity of different CSS selectors.
+- How to use the `<span>` tag to style specific words within a paragraph.
+- Implementing attribute-based styling for interactive elements like links.
